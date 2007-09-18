@@ -2,7 +2,7 @@
 %define theme_name	reinhardt
 %define version		0.8
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 2
+%define release		%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -12,7 +12,7 @@ License:	LGPL
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}icons-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=6153
-Requires:	kdebase kdegraphics-ksvg
+Requires:	kdebase-progs kdegraphics-ksvg
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
