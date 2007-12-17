@@ -14,7 +14,6 @@ Source:		%{theme_name}icons-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=6153
 Requires:	kdebase-progs kdegraphics-ksvg
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 This is The Reinhardt Icon Set                       
