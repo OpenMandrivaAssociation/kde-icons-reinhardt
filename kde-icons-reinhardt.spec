@@ -2,7 +2,7 @@
 %define theme_name	reinhardt
 %define version		0.8
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 3
+%define release		%mkrel 5
 
 Name:		%{name}
 Version:	%{version}
