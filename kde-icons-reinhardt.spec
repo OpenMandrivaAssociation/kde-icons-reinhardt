@@ -48,3 +48,40 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc icon-guidelines.txt README 
 %{_iconsdir}/%{theme_name}-%{version}/*
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.8-8mdv2011.0
++ Revision: 619902
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.8-7mdv2010.0
++ Revision: 438084
+- rebuild
+
+* Sun Mar 22 2009 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.8-6mdv2009.1
++ Revision: 360338
+- Fix Requires
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.8-5mdv2009.0
++ Revision: 247629
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.8-3mdv2008.1
++ Revision: 140853
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Nicolas Lécureuil <nlecureuil@mandriva.com>
+    - Fix Requires (Bug #33728)
+    - Import kde-icons-reinhardt
+
+
+
+* Fri Jul 14 2006 Nicolas L�cureuil <neoclust@mandriva.org> 0.8-2mdv2007.0
+- Rebuild
+
+* Mon Apr 19 2004 Laurent Culioli <laurent@mandrake.org> 0.8-1mdk
+- new kde icon theme
