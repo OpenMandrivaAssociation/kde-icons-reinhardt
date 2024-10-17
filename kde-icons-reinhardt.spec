@@ -11,7 +11,7 @@ Summary:	Reinhardt icons for KDE Desktop
 License:	LGPL
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}icons-%{version}.tar.bz2
-URL:		http://kde-look.org/content/show.php?content=6153
+URL:		https://kde-look.org/content/show.php?content=6153
 Requires:	kdebase3-progs 
 Requires:   kdegraphics3-ksvg
 BuildArch:	noarch
