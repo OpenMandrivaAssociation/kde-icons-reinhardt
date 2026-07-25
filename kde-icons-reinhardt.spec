@@ -2,7 +2,7 @@
 %define theme_name	reinhardt
 %define version		0.8
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 8
+%define release 9
 
 Name:		%{name}
 Version:	%{version}
@@ -80,7 +80,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
-* Fri Jul 14 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.8-2mdv2007.0
+* Fri Jul 14 2006 Nicolas Lï¿½cureuil <neoclust@mandriva.org> 0.8-2mdv2007.0
 - Rebuild
 
 * Mon Apr 19 2004 Laurent Culioli <laurent@mandrake.org> 0.8-1mdk
